@@ -32,7 +32,7 @@ class ContactManager:
         if not self.contacts:
             print(" Kontaktlar yo‘q")
         else:
-            print(" Kontaktlar ro‘yxati:")
+            print("                    |Kontaktlar ro‘yxati|")
             for i, c in enumerate(self.contacts, 1):
                 print(f"{i}. {c.get_info()}")
 
@@ -54,7 +54,7 @@ class ContactManager:
         print(f" {name} topilmadi")
 
 
-manager = ContactManager("Mening kontaktlarim")
+manager = ContactManager("Mansurbekning  kontaktlari")
 
 a1 = Contact("ali ", '942873399')
 a2 = Contact("avaz akam ", '939561703')
